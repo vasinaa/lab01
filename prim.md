@@ -35,16 +35,17 @@ $ find boost_1_69_0 -type f -name '*.cpp' -o -name '*.h' -o -name '*.hpp' | wc -
 6. _Найдите полный пусть до файла any.hpp внутри библиотеки boost._
 ```
 $  find `pwd`/boost_1_69_0/boost -name 'any.hpp'
->>/home/alexandra/boost_1_69_0/boost/hana/any.hpp
->>/home/alexandra/boost_1_69_0/boost/hana/fwd/any.hpp
->>/home/alexandra/boost_1_69_0/boost/proto/detail/any.hpp
->>/home/alexandra/boost_1_69_0/boost/any.hpp
->>/home/alexandra/boost_1_69_0/boost/type_erasure/any.hpp
->>/home/alexandra/boost_1_69_0/boost/fusion/include/any.hpp
->>/home/alexandra/boost_1_69_0/boost/fusion/algorithm/query/any.hpp
->>/home/alexandra/boost_1_69_0/boost/fusion/algorithm/query/detail/any.hpp
->>/home/alexandra/boost_1_69_0/boost/spirit/home/support/algorithm/any.hpp
->>/home/alexandra/boost_1_69_0/boost/xpressive/detail/utility/any.hpp
+>
+>>	/home/alexandra/boost_1_69_0/boost/hana/any.hpp
+	/home/alexandra/boost_1_69_0/boost/hana/fwd/any.hpp
+	/home/alexandra/boost_1_69_0/boost/proto/detail/any.hpp
+	/home/alexandra/boost_1_69_0/boost/any.hpp
+	/home/alexandra/boost_1_69_0/boost/type_erasure/any.hpp
+	/home/alexandra/boost_1_69_0/boost/fusion/include/any.hpp
+	/home/alexandra/boost_1_69_0/boost/fusion/algorithm/query/any.hpp
+	/home/alexandra/boost_1_69_0/boost/fusion/algorithm/query/detail/any.hpp
+	/home/alexandra/boost_1_69_0/boost/spirit/home/support/algorithm/any.hpp
+	/home/alexandra/boost_1_69_0/boost/xpressive/detail/utility/any.hpp
 ```
 7. _Выведите в консоль все файлы, где упоминается последовательность boost::asio._
 ```
